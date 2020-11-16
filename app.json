@@ -1,0 +1,12 @@
+{
+  "name": "AppDioMarketplace",
+  "displayName": "AppDioMarketplace",
+  "expo": {
+    "name": "AppDioMarketplace",
+    "slug": "AppDioMarketplace",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
