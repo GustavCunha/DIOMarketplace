@@ -24,27 +24,7 @@ import EmptyCart from '../../components/EmptyCart';
 
 export default function Cart(){
 
-    const [products, setProducts] = useState([
-        {
-            id: '1',
-            title: 'Assinatura Trimestral',
-            image_url: 'https://image.freepik.com/fotos-gratis/dispositivo-tecnologico-com-netfilx-app_23-2147915501.jpg',
-            quantity: 3,
-            price: 22,
-        },{
-            id: '2',
-            title: 'Assinatura Anual',
-            image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/annual_subscription_qyolci.png',
-            quantity: 1,
-            price: 540
-        },{
-            id: '3',
-            title: 'Assinatura Mensal',
-            image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/annual_subscription_qyolci.png',
-            quantity: 5,
-            price: 45.00
-        }
-    ]);
+    const [products, setProducts] = useState([]);
 
     const cartSize = useMemo(()=> {
         return products.length || 0;
